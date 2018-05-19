@@ -1,0 +1,64 @@
+/*
+#4E3940 - ciemnofioletowy
+#43415F - granat
+#D90866 - fuksja
+#F0A7C2 - róż
+#EAD1CC - blady róż
+#1F2340 - granat
+#878A91 - popiel
+#F1DABA - piaskowy
+#D57609 - rudy
+#71583D - brąz
+*/
+body{
+	background-color:white;
+	color: #2c2c2c;
+	margin: 0;
+	padding: 0;
+	font-family: Flavors;
+}
+header,
+footer{
+	background-color: #4E3940;
+	width: 100%;
+}
+h1{
+	color: #EAD1CC;
+}
+h2{
+	color: #43415F;
+}
+#skills{
+	background-color: #F1DABA;
+}
+#contact{
+	background-color: #878A91;
+}
+section{
+	padding: 50px 0;
+	position: relative;
+}
+div.content{
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+section img.photo{
+	width: 40%;
+	border: solid 7px white;
+	box-shadow: 0 0 15px 3px #eeeeee;
+	margin-right: 20px;
+	float: left;
+}
+section img.photo{
+	width: 40%;
+	float: right;
+	margin-left: 20px;
+	margin-right: 0;
+}
+section p{
+	width: 100%;
+	padding: 10px;
+	overflow: hidden;
+	
+}
